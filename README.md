@@ -1,26 +1,19 @@
-# ⛳ AGSE Golf — Product Owner Case Study
+# ⛳ AGSE Golf - Case Study
 
-> Portfolio de Product Ownership : transformation digitale d'une association de golf
+> Portfolio d'une application web d'une association de golf
 > avec adoption anticipée grâce à une approche centrée utilisateur et un ROI immédiat
 
 <div align="center">
-  <img src="./docs/landing.png" alt="Page d'accueil AGSE Golf" width="100%" />
+  <img src="./images/accueil" alt="Page d'accueil AGSE Golf" width="100%" />
   <br/>
   <em>Page d'accueil de l'application AGSE Golf</em>
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="./docs/formulaire.png" alt="Formulaire d'adhésion" width="100%" />
+    <img src="./images/form.png" alt="Formulaire d'adhésion" width="100%" />
   <br/>
   <em>Formulaire d'adhésion multi-étapes</em>
 </div>
-
----
-
-## 🔗 Liens Utiles
-
-- **Repository :** [github.com/GtAntoine/golf-agse-public](https://github.com/GtAntoine/golf-agse-public)
-- **Déploiement :** Application en production depuis janvier 2025
 
 ---
 
@@ -134,27 +127,10 @@ En tant que Product Owner, j'ai d'abord analysé les **solutions existantes** av
 
 **Problème identifié :** Pas de visibilité pour le membre sur l'état de sa candidature.
 
-**Solution proposée :**
-- **Code couleur** :
-  - 🟡 Jaune : En attente de validation
-  - 🟢 Vert : Validé
-  - 🔴 Rouge : Paiement en attente
 - **Timeline** : "Candidature soumise → Validation → Paiement adhésion → Paiement licence → Membre actif"
 
-**Impact :** Réduction de 50% des emails "Où en est ma candidature ?"
 
-#### 3. Export Excel Intelligent
-
-**Problème identifié :** Export manuel compliqué depuis Google Sheets.
-
-**Solution proposée :**
-- **Export 1-clic** avec colonnes exactes requises par FFG
-- **Calcul automatique de l'année** : Application en septembre = année N+1
-- **Filtrage** : Seulement les membres validés avec licence FFG
-
-**Impact :** De 30 minutes à 10 secondes pour générer l'export FFG
-
-#### 4. Gestion des Paiements Séparés
+#### 3. Gestion des Paiements Séparés
 
 **Problème identifié :** Adhésion et licence FFG payées à des moments différents, difficile à tracker.
 
@@ -283,16 +259,9 @@ Total : 148€
 ### Ampleur du Projet
 
 - **~6 000 lignes de code** dans `src/`
-  - TypeScript (.ts) : 921 lignes
-  - TypeScript React (.tsx) : 5 036 lignes
+  - TypeScript (.ts) : 1k lignes
+  - TypeScript React (.tsx) : 5k lignes
   - **57 fichiers** TS/TSX
-
-**Comparaison :**
-- [TuteurPrivé](https://github.com/GtAntoine/tuteur-prive-public/#-tuteurpriv%C3%A9--product-owner-case-study) : 15k lignes (IA éducative)
-- [InviteMoi](https://github.com/GtAntoine/invitemoi-public) : 11.7k lignes (plateforme sociale)
-- **AGSE Golf** : 6k lignes (gestion adhésions)
-
-Ratio **fonctionnalité / lignes de code** : Très optimisé (architecture modulaire par pages)
 
 ---
 
@@ -307,18 +276,8 @@ Ratio **fonctionnalité / lignes de code** : Très optimisé (architecture modul
 **Raison de l'anticipation :**
 > "L'application est tellement bien et fonctionnelle qu'on va l'utiliser dès maintenant pour les renouvellements de janvier, pas besoin d'attendre septembre." — Mon père, trésorier AGSE Golf
 
-**Traduction PO :** Le produit a créé suffisamment de valeur pour justifier un changement de process immédiat, malgré le coût de migration (données Google Sheets → Supabase).
+**Traduction PO :** Le produit a créé suffisamment de valeur pour justifier un changement de process immédiat.
 
-### Métriques d'Usage (Janvier 2025 - 3 mois)
-
-| Métrique | Valeur | Commentaire |
-|----------|--------|-------------|
-| **Membres inscrits** | 87 | ~87% de l'association (100 membres) |
-| **Taux de complétion formulaire** | 100% | 0 abandon vs ~10% avec Google Forms |
-| **Temps de validation/candidature** | 30 secondes | vs 5 minutes avec Google Sheets |
-| **Erreurs de saisie** | 0 | vs ~5/an avec process manuel |
-| **Exports FFG générés** | 2 | 10s vs 30 minutes manuellement |
-| **Temps gagné/semaine** | ~2h | Automatisation des tâches répétitives |
 
 ### ROI Financier
 
@@ -326,8 +285,8 @@ Ratio **fonctionnalité / lignes de code** : Très optimisé (architecture modul
 
 **Coût solution custom :**
 - Développement : 40h × 0€ (dev interne)
-- Hébergement Supabase : **0€** (plan gratuit suffit : 500MB DB, 50k users, 2GB transfer)
-- Hébergement Netlify : **0€** (plan gratuit : 100GB bandwidth)
+- Hébergement Supabase : **0€**
+- Hébergement Netlify : **0€**
 - **Total : 0€/an**
 
 **Économies annuelles :** **300€/an** = **1 adhésion gratuite offerte** chaque année
@@ -340,13 +299,11 @@ Ratio **fonctionnalité / lignes de code** : Très optimisé (architecture modul
 - ❌ Trésorier passe 2-3h/semaine sur gestion adhésions
 - ❌ Membres ne savent pas où en est leur candidature (emails répétés)
 - ❌ Erreurs de saisie/oublis fréquents
-- ❌ Export FFG = 30 minutes de copier-coller
 
 **Après (AGSE Golf App) :**
 - ✅ Trésorier passe 30 minutes/semaine (automatisation)
 - ✅ Membres voient leur statut en temps réel (self-service)
 - ✅ Zéro erreur (validation formulaire + BDD structurée)
-- ✅ Export FFG = 10 secondes (1-clic)
 
 **Citation du stakeholder :**
 > "Avant, je redoutais la période d'adhésions en septembre. Maintenant, c'est un plaisir. Tout est clair, automatique, et je ne perds plus mon temps sur des tâches inutiles."
@@ -357,14 +314,14 @@ Ratio **fonctionnalité / lignes de code** : Très optimisé (architecture modul
 
 Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec une approche pragmatique et centrée ROI.
 
-### Compétences Product Owner Démontrées
+### Compétences Démontrées
 
 - ✅ **Discovery & Requirements** : Entretiens stakeholder, observation terrain
 - ✅ **Make vs Buy analysis** : Comparaison rigoureuse solutions existantes vs custom
 - ✅ **Priorisation ROI** : Focus sur valeur (économies 300€/an + gain temps)
 - ✅ **Force de proposition** : Fonctionnalités non demandées mais à forte valeur (multi-step form, dashboard statuts)
 - ✅ **User stories** : Décomposition claire des besoins (admin vs membre)
-- ✅ **Validation métrique** : KPIs mesurables (adoption anticipée, temps gagné, taux complétion)
+- ✅ **Validation métrique** : KPIs mesurables (adoption anticipée, temps gagné)
 
 ### Compétences Transverses
 
@@ -402,39 +359,3 @@ Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec u
 
 ---
 
-## 🆚 Comparaison avec Autres Projets Portfolio
-
-| Projet | Type | Lignes Code | Innovation | Résultat |
-|--------|------|-------------|------------|----------|
-| [TuteurPrivé](https://github.com/GtAntoine/tuteur-prive-public/#-tuteurpriv%C3%A9--product-owner-case-study) | IA Éducative | 15k | Pipeline GPT-4 Vision | Success |
-| [InviteMoi](https://github.com/GtAntoine/invitemoi-public) | Marketplace | 11.7k | Swipe culturel | Post-mortem |
-| **AGSE Golf** | B2B Internal Tool | 6k | ROI immédiat | **Adoption anticipée** |
-
-**Synthèse :**
-- **TuteurPrivé** = Innovation technique (IA)
-- **InviteMoi** = Learnings d'échec (cold start problem)
-- **AGSE Golf** = Pragmatisme et ROI (make vs buy)
-
-**Ensemble, ces 3 projets démontrent :**
-- Capacité d'innovation (TuteurPrivé)
-- Maturité d'analyse post-mortem (InviteMoi)
-- Sens du ROI et pragmatisme (AGSE Golf)
-
----
-
-## 📞 Contact
-
-**Antoine Goethals**
-Product Owner | Développeur Full-Stack
-
-- LinkedIn: [linkedin.com/in/antoinegoethals](https://www.linkedin.com/in/antoinegoethals/)
-- Email: antoine.gt@orange.fr
-- Portfolio: [TuteurPrivé](https://github.com/GtAntoine/tuteur-prive-public/#-tuteurpriv%C3%A9--product-owner-case-study) | [InviteMoi](https://github.com/GtAntoine/invitemoi-public) | AGSE Golf
-
-**Certifications :**
-- [Professional Scrum Product Owner II](https://www.credly.com/badges/e66d6dd1-b6c9-4ed4-a78f-27612df6d5ae)
-- [Professional Scrum Master I](https://www.credly.com/badges/bc483041-bdf5-4ecc-87d0-f2bb0d16bd8d)
-
----
-
-*Ce README fait partie d'un portfolio Product Owner. Il démontre une approche pragmatique et ROI-driven du product management sur un projet B2B internal tool.*
