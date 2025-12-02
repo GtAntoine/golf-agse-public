@@ -53,7 +53,7 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 | **Google Sheets (actuel)** | Gratuit | Familiarité | Manuel, erreurs, pas scalable | ❌ Insuffisant |
 | **Solution custom** | 0€ (dev interne) | 100% adapté, gratuit, migrable | Temps dev | ✅ **Choisi** |
 
-### Critères de Décision PO
+### Critères de décision
 
 **Pourquoi une solution custom a gagné :**
 
