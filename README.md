@@ -4,13 +4,13 @@
 > avec adoption anticipée grâce à une approche centrée utilisateur et un ROI immédiat
 
 <div align="center">
-  <img src="./images/accueil" alt="Page d'accueil AGSE Golf" width="100%" />
+  <img src="./public/images/accueil" alt="Page d'accueil AGSE Golf" width="100%" />
   <br/>
   <em>Page d'accueil de l'application AGSE Golf</em>
 </div>
 
 <div align="center" style="margin-top: 20px;">
-    <img src="./images/form.png" alt="Formulaire d'adhésion" width="100%" />
+    <img src="./public/images/form.png" alt="Formulaire d'adhésion" width="100%" />
   <br/>
   <em>Formulaire d'adhésion multi-étapes</em>
 </div>
