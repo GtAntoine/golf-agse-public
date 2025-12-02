@@ -41,7 +41,7 @@
 
 ## 🔍 Analyse de Marché : Make vs Buy
 
-En tant que Product Owner, j'ai d'abord analysé les **solutions existantes** avant de décider de construire.
+J'ai d'abord analysé les **solutions existantes** avant de décider de construire.
 
 ### Options Évaluées
 
@@ -106,7 +106,7 @@ En tant que Product Owner, j'ai d'abord analysé les **solutions existantes** av
 - ✅ Voir mes paiements en cours et validés
 - ✅ Télécharger mon reçu de paiement (V2)
 
-### Phase 3 : Force de Proposition (Valeur Ajoutée PO)
+### Phase 3 : Force de Proposition
 
 **Fonctionnalités proposées (non demandées initialement) :**
 
@@ -233,8 +233,6 @@ Total : 148€
   }
   ```
 
-**Impact PO :** Cette règle métier spécifique (pas dans les outils SaaS génériques) justifie la solution custom.
-
 ---
 
 ## 📊 Architecture Technique
@@ -310,10 +308,6 @@ Total : 148€
 
 ---
 
-## 🎯 Positionnement pour un Recruteur
-
-Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec une approche pragmatique et centrée ROI.
-
 ### Compétences Démontrées
 
 - ✅ **Discovery & Requirements** : Entretiens stakeholder, observation terrain
@@ -330,6 +324,8 @@ Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec u
 - ✅ **User-centric** : Chaque feature répond à un pain point réel
 - ✅ **Adaptabilité** : Logique métier spécifique (cycle Sept-Août, types licences FFG)
 - ✅ **Double casquette** : Capacité à designer ET implémenter
+
+Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec une approche pragmatique et centrée ROI.
 
 ### Learnings Clés
 
