@@ -63,11 +63,6 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 4. **Pérennité** : Code open-source, pas de dépendance à un SaaS qui peut fermer
 5. **Customisation** : Workflow exactement adapté (cycle Sept-Août, types de licences FFG)
 
-**Temps de développement estimé vs coût SaaS :**
-- Temps dev : ~40 heures (1 mois part-time)
-- Équivalent monétaire si freelance : ~2 000€
-- Break-even vs SaaS : 2000€ / 300€/an = **7 ans** (acceptable pour une association pérenne)
-
 ---
 
 ## 💡 Approche Product Owner
@@ -282,7 +277,6 @@ Total : 148€
 **Coût solution SaaS équivalente :** 300€/an (25€/mois)
 
 **Coût solution custom :**
-- Développement : 40h × 0€ (dev interne)
 - Hébergement Supabase : **0€**
 - Hébergement Netlify : **0€**
 - **Total : 0€/an**
