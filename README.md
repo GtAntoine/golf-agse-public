@@ -4,7 +4,7 @@
 > avec adoption anticipée grâce à une approche centrée utilisateur et un ROI immédiat
 
 <div align="center">
-  <img src="./public/images/accueil" alt="Page d'accueil AGSE Golf" width="100%" />
+  <img src="./public/images/accueil.png" alt="Page d'accueil AGSE Golf" width="100%" />
   <br/>
   <em>Page d'accueil de l'application AGSE Golf</em>
 </div>
