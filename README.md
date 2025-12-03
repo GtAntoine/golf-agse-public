@@ -197,12 +197,12 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 **Tableau de bord avec :**
 - **Liste des candidatures** : Filtres par statut (En attente / Validé / Tous)
 - **Actions 1-clic** :
-  - ✅ Valider candidature
-  - 💰 Marquer adhésion payée
-  - 🏌️ Marquer licence payée
-  - 🔄 Changer type membre (AGSE ↔ RATTACHE)
-  - 📊 Voir détails complets
-  - 🗑️ Supprimer (avec confirmation)
+  - Valider candidature
+  - Marquer adhésion payée
+  - Marquer licence payée
+  - Changer type membre (AGSE ↔ RATTACHE)
+  - Voir détails complets
+  - Supprimer (avec confirmation)
 
 **Modals de validation :**
 - **ValidationModal** : Valide la candidature + crée l'entrée `payment_history`
@@ -260,7 +260,6 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 **Frontend :**
 - **React 18** + **TypeScript** + **Vite** (build rapide)
 - **Tailwind CSS** (utility-first, design system cohérent)
-- **lucide-react** (icônes modernes)
 - **xlsx** (export Excel)
 
 **Backend & BDD :**
@@ -274,7 +273,7 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 
 ### Ampleur du Projet
 
-- **~6 000 lignes de code** dans `src/`
+- **~6k lignes de code** dans `src/`
   - TypeScript (.ts) : 1k lignes
   - TypeScript React (.tsx) : 5k lignes
   - **57 fichiers** TS/TSX
@@ -342,9 +341,6 @@ Le produit a créé suffisamment de valeur pour justifier un déploiement antici
 - ✅ Membres voient leur statut en temps réel (self-service)
 - ✅ Zéro erreur (validation formulaire + BDD structurée)
 
-**Citation du stakeholder :**
-> "Avant, je redoutais la période d'adhésions en septembre. Maintenant, c'est un plaisir. Tout est clair, automatique, et je ne perds plus mon temps sur des tâches inutiles."
-
 ---
 
 ### Compétences Démontrées
@@ -370,13 +366,13 @@ Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec u
 
 #### 1. Small is Beautiful
 
-**Insight :** Un produit de 6k lignes peut avoir autant d'impact qu'un produit de 15k lignes, si les fonctionnalités sont exactement adaptées au besoin.
+**Insight :** Un produit de 6k lignes peut avoir autant d'impact qu'un produit de 150k lignes, si les fonctionnalités sont exactement adaptées au besoin.
 
 **Application future :** Toujours challenger la complexité. "Do we really need this feature?"
 
 #### 2. ROI > Perfection
 
-**Insight :** Solution custom à 0€ adoptée 8 mois en avance > Solution SaaS à 300€/an "parfaite" mais avec friction d'adoption.
+**Insight :** Solution custom à 0€ adoptée 6 mois en avance > Solution SaaS à 300€/an "parfaite" mais avec friction d'adoption.
 
 **Application future :** Prioriser time-to-value et coût réel vs fonctionnalités exhaustives.
 
