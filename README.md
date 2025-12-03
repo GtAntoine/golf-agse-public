@@ -156,34 +156,19 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 
 **2. Formulaire Tout-en-Un**
 - **Section Informations Personnelles** :
-  - Données pré-remplies : Email, Nom, Prénom, Date de naissance
-  - Données à compléter : Adresse, Code postal, Ville, Téléphone, Contact d'urgence
-  - Données optionnelles : N° Licence FFG, Index Golf, Lieu de naissance
-
+  - Données pré-remplies
 - **Section Type d'Adhésion** :
   - 3 cartes visuelles avec descriptions détaillées
-  - **GOLF** (70€) : Sorties en groupes sur parcours 18T, Prix négociés
-  - **GOLF LOISIR** (70€) : Initiation + Sorties sur parcours 9T et 18T
-  - **GOLF JEUNE** (35€) : Initiation et leçons pour les moins de 25 ans
-
-- **Section Type de Licence FFG** :
-  - Liste déroulante avec 5 options :
-    - Licence FFG Adulte (78€)
-    - Licence FFG Jeune adulte 19-25 ans (54€)
-    - Licence FFG Jeune 13-18 ans (31€)
-    - Licence FFG Enfant moins de 13 ans (24€)
-    - **Pas de Licence FFG demandée via l'AGSE Golf** (mise en avant verte)
+- **Section Type de Licence FFG**
 
 **3. Calcul Automatique du Total**
 - Prix affiché en temps réel selon la sélection
 - Exemple visible : Adhésion GOLF (70€) + Licence FFG Adulte (78€) = **Total : 148€**
-- Dans l'image : Total = 70€ (GOLF sans licence FFG)
 
 **4. Validation Automatique**
 - Email unique (pas de doublon dans la base)
 - Date de naissance cohérente avec type de licence sélectionné
 - Champs requis (*) clairement indiqués
-- Désactivation du bouton "Envoyer" tant que le formulaire n'est pas valide
 
 **5. Référence de Virement Bancaire Personnalisée**
 
