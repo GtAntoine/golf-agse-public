@@ -113,9 +113,7 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 - **Cartes visuelles** pour les types d'adhésion avec descriptions détaillées
 
 **Impact :**
-- Taux de complétion 100% (aucun abandon observé vs ~10% avec Google Forms)
-- Temps de saisie divisé par 2 grâce au pré-remplissage
-- Zéro erreur d'identité (données issues du profil authentifié)
+- Taux d'erreur réduit sur les données saisies et sur les virements bancaire
 
 #### 2. Dashboard avec Statuts Visuels
 
