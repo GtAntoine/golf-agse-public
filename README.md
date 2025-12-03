@@ -336,7 +336,7 @@ Le produit a créé suffisamment de valeur pour justifier un déploiement antici
 - Hébergement Netlify : **0€**
 - **Total : 0€/an**
 
-**Économies annuelles :** **300€/an** = **1 adhésion gratuite offerte** chaque année
+**Économies annuelles :** **300€/an**
 
 **ROI sur 5 ans :** 1 500€ économisés
 
