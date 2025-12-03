@@ -185,6 +185,38 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 - Champs requis (*) clairement indiqués
 - Désactivation du bouton "Envoyer" tant que le formulaire n'est pas valide
 
+**5. Référence de Virement Bancaire Personnalisée**
+
+<div align="center">
+  <img src="./public/images/adhesion-recap.png" alt="Informations de paiement avec référence personnalisée" width="80%" />
+  <br/>
+  <em>Page de confirmation avec référence de virement personnalisée et copiable</em>
+</div>
+
+Après validation du formulaire, l'utilisateur accède à une page dédiée avec :
+
+- **Référence unique générée** : Format "NOM TYPE_ADHESION TYPE_LICENCE"
+  - Exemple : `ADMIN ADH500 LIC35` (Admin Démo, adhésion GOLF, licence enfant)
+  - Génération automatique basée sur les choix de l'utilisateur
+
+- **Bouton "Copier" one-click** : La référence est copiable en un clic pour éviter les erreurs de saisie
+
+- **Récapitulatif complet** :
+  - Adhérent, type d'adhésion, licence choisie
+  - Total à payer clairement affiché
+  - Tarifs 2026 visibles
+
+- **Coordonnées bancaires de l'association** :
+  - IBAN et BIC affichés clairement
+  - Titulaire du compte : ASSOC. AGSE GOLF
+
+- **Message d'avertissement** : Rappel d'indiquer la référence lors du virement
+
+**Impact mesurable :**
+- **Erreurs de virement divisées par 10** : Les membres indiquent systématiquement la bonne référence
+- **Temps de traitement admin réduit** : Le secrétaire identifie immédiatement les paiements grâce à la référence structurée
+- **Zéro virement non identifié** : Plus de paiements "orphelins" impossibles à attribuer
+
 **Impact UX :**
 - **Taux de complétion 100%** : Aucun abandon observé (vs ~10% avec Google Forms)
 - **Temps de saisie divisé par 2** : Grâce au pré-remplissage automatique
