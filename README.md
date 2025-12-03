@@ -131,7 +131,7 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 - **Historique par année** : Table `payment_history` avec état pour chaque année
 - **Calcul automatique du solde** : "Total dû : 148€ | Payé : 70€ | Reste : 78€"
 
-**Impact :** Zéro erreur de tracking vs ~5 erreurs/an avec Google Sheets
+**Impact :** Suivi facilité, erreurs réduites et facilité de correction
 
 ---
 
