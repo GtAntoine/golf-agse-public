@@ -216,11 +216,7 @@ Après validation du formulaire, l'utilisateur accède à une page dédiée avec
 - **Erreurs de virement divisées par 10** : Les membres indiquent systématiquement la bonne référence
 - **Temps de traitement admin réduit** : Le secrétaire identifie immédiatement les paiements grâce à la référence structurée
 - **Zéro virement non identifié** : Plus de paiements "orphelins" impossibles à attribuer
-
-**Impact UX :**
-- **Taux de complétion 100%** : Aucun abandon observé (vs ~10% avec Google Forms)
-- **Temps de saisie divisé par 2** : Grâce au pré-remplissage automatique
-- **Zéro erreur d'identité** : Les données sensibles viennent du profil authentifié
+- 
 
 ### 2. Dashboard Admin avec Actions Rapides
 
