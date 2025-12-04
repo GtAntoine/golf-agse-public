@@ -129,7 +129,6 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 **Solution proposée :**
 - **Deux checkboxes séparées** : Adhésion payée / Licence payée
 - **Historique par année** : Table `payment_history` avec état pour chaque année
-- **Calcul automatique du solde** : "Total dû : 148€ | Payé : 70€ | Reste : 78€"
 
 **Impact :** Suivi facilité, erreurs réduites et facilité de correction
 
@@ -166,8 +165,7 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 - Exemple visible : Adhésion GOLF (70€) + Licence FFG Adulte (78€) = **Total : 148€**
 
 **4. Validation Automatique**
-- Email unique (pas de doublon dans la base)
-- Date de naissance cohérente avec type de licence sélectionné
+- Email unique (pas de doublon voir de triplon dans la base)
 - Champs requis (*) clairement indiqués
 
 **5. Référence de Virement Bancaire Personnalisée**
@@ -198,7 +196,7 @@ Après validation du formulaire, l'utilisateur accède à une page dédiée avec
 - **Message d'avertissement** : Rappel d'indiquer la référence lors du virement
 
 **Impact mesurable :**
-- **Erreurs de virement divisées par 10** : Les membres indiquent systématiquement la bonne référence
+- **Erreurs de virement réduit** : Les membres indiquent systématiquement la bonne référence
 - **Temps de traitement admin réduit** : Le secrétaire identifie immédiatement les paiements grâce à la référence structurée
 - **Zéro virement non identifié** : Plus de paiements "orphelins" impossibles à attribuer
 - 
