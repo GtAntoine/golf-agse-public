@@ -397,5 +397,4 @@ Ce projet démontre ma capacité à **mener un projet produit de A à Z** avec u
 
 **Application future :** Toujours faire l'analyse comparative complète avant de décider.
 
----
 
