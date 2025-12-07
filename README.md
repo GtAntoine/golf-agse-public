@@ -292,17 +292,11 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 <table>
   <tr>
     <th>Avant</th>
-    <th>Après</th>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="./public/images/accueil-avant.png" width="100%"><br>
       <em>Ancienne interface</em>
-    </td>
-
-    <td width="50%" valign="top">
-      <img src="./public/images/accueil.png" width="100%"><br>
-      <em>Nouvelle interface</em>
     </td>
   </tr>
 
@@ -310,11 +304,6 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
     <td width="50%" valign="top">
       <img src="./public/images/form-avant.png" width="100%"><br>
       <em>Formulaire avant refonte</em>
-    </td>
-
-    <td width="50%" valign="top">
-      <img src="./public/images/form.png" width="100%"><br>
-      <em>Formulaire après refonte</em>
     </td>
   </tr>
 </table>
