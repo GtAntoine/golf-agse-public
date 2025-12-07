@@ -287,36 +287,37 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 
 ## 🖼️ Historique du design
 
-<table>
+<table style="width:100%; table-layout:fixed;">
   <tr>
-    <th>Avant</th>
-    <th>Après</th>
+    <th style="width:50%;">Avant</th>
+    <th style="width:50%;">Après</th>
   </tr>
   <tr>
-    <td>
-      <img src="./public/images/accueil-avant.png" alt="Page d'accueil avant refonte" width="100%" />
+    <td style="width:50%; vertical-align:top;">
+      <img src="./public/images/accueil-avant.png" width="100%"/>
       <br/>
       <em>Ancienne interface (placeholder, à remplacer)</em>
     </td>
-    <td>
-      <img src="./public/images/accueil.png" alt="Page d'accueil après refonte" width="100%" />
+    <td style="width:50%; vertical-align:top;">
+      <img src="./public/images/accueil.png" width="100%"/>
       <br/>
       <em>Nouvelle interface (placeholder, à remplacer)</em>
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="./public/images/form-avant.png" alt="Formulaire avant refonte" width="100%" />
+    <td style="width:50%; vertical-align:top;">
+      <img src="./public/images/form-avant.png" width="100%"/>
       <br/>
       <em>Formulaire avant refonte (placeholder)</em>
     </td>
-    <td>
-      <img src="./public/images/form.png" alt="Formulaire après refonte" width="100%" />
+    <td style="width:50%; vertical-align:top;">
+      <img src="./public/images/form.png" width="100%"/>
       <br/>
       <em>Formulaire après refonte (placeholder)</em>
     </td>
   </tr>
 </table>
+
 
 ---
 
