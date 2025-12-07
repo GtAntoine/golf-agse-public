@@ -281,6 +281,45 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 
 **Résultat :** une adoption nocturne facilitée, moins de frictions sur mobile et une expérience plus cohérente sur l'ensemble des devices grâce à une refonte visuelle complète.
 
+<div align="center">
+  <img src="./public/images/dark-mode-transition.gif" alt="Transition claire/sombre de l'application (GIF placeholder)" width="100%" />
+  <br/>
+  <em>GIF de transition clair → sombre (à remplacer dès que le fichier est disponible)</em>
+</div>
+
+## 🖼️ Historique du design
+
+<table>
+  <tr>
+    <th>Avant</th>
+    <th>Après</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./public/images/accueil-avant.png" alt="Page d'accueil avant refonte" width="100%" />
+      <br/>
+      <em>Ancienne interface (placeholder, à remplacer)</em>
+    </td>
+    <td>
+      <img src="./public/images/accueil.png" alt="Page d'accueil après refonte" width="100%" />
+      <br/>
+      <em>Nouvelle interface (placeholder, à remplacer)</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./public/images/form-avant.png" alt="Formulaire avant refonte" width="100%" />
+      <br/>
+      <em>Formulaire avant refonte (placeholder)</em>
+    </td>
+    <td>
+      <img src="./public/images/form.png" alt="Formulaire après refonte" width="100%" />
+      <br/>
+      <em>Formulaire après refonte (placeholder)</em>
+    </td>
+  </tr>
+</table>
+
 ---
 
 
