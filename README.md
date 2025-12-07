@@ -293,7 +293,7 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 <div align="center">
   <img src="./public/images/dark-mode-transition.gif" alt="Transition claire sombre de l'application" width="70%" />
   <br/>
-  <em>GIF de transition clair → sombre
+  <em>GIF de transition clair → sombre</em>
 </div>
 
 
