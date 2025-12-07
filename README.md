@@ -280,7 +280,7 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 **Résultat :** une adoption nocturne facilitée, moins de frictions sur mobile et une expérience plus cohérente sur l'ensemble des devices grâce à une refonte visuelle complète.
 
 <div align="center">
-  <img src="./public/images/dark-mode-transition.gif" alt="Transition claire sombre de l'application" width="100%" />
+  <img src="./public/images/dark-mode-transition.gif" alt="Transition claire sombre de l'application" width="70%" />
   <br/>
   <em>GIF de transition clair → sombre
 </div>
