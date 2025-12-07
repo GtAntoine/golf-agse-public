@@ -172,7 +172,7 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 **5. Référence de Virement Bancaire Personnalisée**
 
 <div align="center">
-  <img src="./public/images/adhesion-recap.png" alt="Informations de paiement avec référence personnalisée" width="80%" />
+  <img src="./public/images/adhesion-recap.png" alt="Informations de paiement avec référence personnalisée" width="100%" />
   <br/>
   <em>Page de confirmation avec référence de virement personnalisée et copiable</em>
 </div>
