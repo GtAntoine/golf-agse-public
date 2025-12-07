@@ -1,3 +1,4 @@
+
 # ⛳ AGSE Golf - Case Study
 
 > Portfolio d'une application web d'une association de golf
@@ -198,43 +199,9 @@ Après validation du formulaire, l'utilisateur accède à une page dédiée avec
 **Impact mesurable :**
 - **Erreurs de virement réduit** : Les membres indiquent systématiquement la bonne référence
 - **Temps de traitement admin réduit** : Le secrétaire identifie immédiatement les paiements grâce à la référence structurée
-
----
-
-## 🔁 Itération Produit après 6 mois d'usage
-
-Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors des retours terrain et des sessions de support :
-
-1. **Confort visuel** pour les membres qui utilisent l'application le soir → demande d'un **mode sombre**.
-2. **Navigation mobile** pour les utilisateurs en déplacement → besoin d'une **optimisation mobile** de l'interface.
-
-### Refonte graphique complète
-
-- **Refonte totale du design system** : nouvelle palette (clair/sombre), typographie homogène, révision des espacements et des contrastes sur l'ensemble des écrans.
-- **Mode sombre** : palette accessible, contrastes adaptés et switch instantané sans rechargement.
-- **Optimisation mobile** : composants responsives, zones tactiles élargies et hiérarchie visuelle simplifiée pour les écrans 360-414px.
-- **Améliorations UX** : micro-copies clarifiées, placements de boutons alignés avec les parcours réels et feedbacks visuels explicites sur les actions clés.
-
-**Résultat :** une adoption nocturne facilitée, moins de frictions sur mobile et une expérience plus cohérente sur l'ensemble des devices grâce à une refonte visuelle complète.
 - **Zéro virement non identifié** : Plus de paiements "orphelins" impossibles à attribuer
-- 
----
 
-## 🔁 Itération Produit après 6 mois d'usage
 
-Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors des retours terrain et des sessions de support :
-
-1. **Confort visuel** pour les membres qui utilisent l'application le soir → demande d'un **mode sombre**.
-2. **Navigation mobile** pour les utilisateurs en déplacement → besoin d'une **optimisation mobile** de l'interface.
-
-### Refonte graphique complète
-
-- **Refonte totale du design system** : nouvelle palette (clair/sombre), typographie homogène, révision des espacements et des contrastes sur l'ensemble des écrans.
-- **Mode sombre** : palette accessible, contrastes adaptés et switch instantané sans rechargement.
-- **Optimisation mobile** : composants responsives et correction des bugs visuels pour les écrans mobiles.
-- **Améliorations UX** : micro-copies clarifiées, placements de boutons alignés avec les parcours réels et feedbacks visuels explicites sur les actions clés.
-
-**Résultat :** une adoption nocturne facilitée, moins de frictions sur mobile et une expérience plus cohérente sur l'ensemble des devices grâce à une refonte visuelle complète.
 
 
 
@@ -296,8 +263,27 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
     return month >= 8 ? year + 1 : year
   }
   ```
+---
+
+## 🔁 Itération Produit après 6 mois d'usage
+
+Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors des retours terrain et des sessions de support :
+
+1. **Confort visuel** pour les membres qui utilisent l'application le soir → demande d'un **mode sombre**.
+2. **Navigation mobile** pour les utilisateurs en déplacement → besoin d'une **optimisation mobile** de l'interface.
+
+### Refonte graphique complète
+
+- **Refonte totale du design system** : nouvelle palette (clair/sombre), typographie homogène, révision des espacements et des contrastes sur l'ensemble des écrans.
+- **Mode sombre** : palette accessible, contrastes adaptés et switch instantané sans rechargement.
+- **Optimisation mobile** : composants responsives et correction des bugs visuels pour les écrans mobiles.
+- **Améliorations UX** : micro-copies clarifiées, placements de boutons alignés avec les parcours réels et feedbacks visuels explicites sur les actions clés.
+
+**Résultat :** une adoption nocturne facilitée, moins de frictions sur mobile et une expérience plus cohérente sur l'ensemble des devices grâce à une refonte visuelle complète.
 
 ---
+
+
 
 ## 📊 Architecture Technique
 
