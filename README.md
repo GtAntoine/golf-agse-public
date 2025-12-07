@@ -301,7 +301,7 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
       <em>Ancienne interface (placeholder, à remplacer)</em>
     </td>
     <td>
-      <img src="./public/images/accueil-apres.png" alt="Page d'accueil après refonte" width="100%" />
+      <img src="./public/images/accueil.png" alt="Page d'accueil après refonte" width="100%" />
       <br/>
       <em>Nouvelle interface (placeholder, à remplacer)</em>
     </td>
@@ -313,14 +313,12 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
       <em>Formulaire avant refonte (placeholder)</em>
     </td>
     <td>
-      <img src="./public/images/form-apres.png" alt="Formulaire après refonte" width="100%" />
+      <img src="./public/images/form.png" alt="Formulaire après refonte" width="100%" />
       <br/>
       <em>Formulaire après refonte (placeholder)</em>
     </td>
   </tr>
 </table>
-
-> 📌 Les fichiers d'images sont à ajouter dans `./public/images/` (`*-avant.png`, `*-apres.png`, `dark-mode-transition.gif`).
 
 ---
 
