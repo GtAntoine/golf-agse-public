@@ -86,16 +86,14 @@ J'ai d'abord analysé les **solutions existantes** avant de décider de construi
 - ✅ Voir toutes les candidatures en attente de validation (dashboard admin)
 - ✅ Valider une candidature en 1 clic (modal de validation)
 - ✅ Tracker les paiements (adhésion + licence FFG séparés)
-- ✅ Exporter la liste complète des adhérents (CSV/Excel)
+- ✅ Exporter la liste complète des adhérents (Excel)
 - ✅ Changer le statut d'un membre (AGSE → RATTACHE)
 - ✅ Voir l'historique des paiements par année
 
 **En tant que membre**, je veux :
+- ✅ Modifier mes informations personnelles (self-service)
 - ✅ M'inscrire en ligne facilement (formulaire multi-étapes)
 - ✅ Voir le statut de ma candidature (dashboard membre)
-- ✅ Modifier mes informations personnelles (self-service)
-- ✅ Voir mes paiements en cours et validés
-- ✅ Télécharger mon reçu de paiement (V2)
 
 ### Phase 3 : Force de Proposition
 
