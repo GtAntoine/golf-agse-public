@@ -14,6 +14,17 @@
 
 ---
 
+## 📑 Menu
+
+- [Contexte : Du Besoin à la Solution](#-contexte--du-besoin-à-la-solution)
+- [Analyse de Marché : Make vs Buy](#-analyse-de-marché--make-vs-buy)
+- [Approche Product Owner](#-approche-product-owner)
+- [Fonctionnalités Clés](#-fonctionnalités-clés)
+- [Itération Produit après 6 mois d'usage](#-itération-produit-après-6-mois-dusage)
+- [Historique du design](#-historique-du-design)
+- [Architecture Technique](#-architecture-technique)
+- [Résultats & KPIs](#-résultats--kpis)
+
 ## 👋 Contexte : Du Besoin à la Solution
 
 ### Le Stakeholder
