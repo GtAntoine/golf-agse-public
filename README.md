@@ -218,7 +218,7 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 
 **Résultat :** une adoption nocturne facilitée, moins de frictions sur mobile et une expérience plus cohérente sur l'ensemble des devices grâce à une refonte visuelle complète.
 
-- 
+
 
 ### 2. Dashboard Admin avec Actions Rapides
 
