@@ -343,10 +343,10 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
 
 ### Ampleur du Projet
 
-- **~6k lignes de code** dans `src/`
-  - TypeScript (.ts) : 1k lignes
-  - TypeScript React (.tsx) : 5k lignes
-  - **57 fichiers** TS/TSX
+- **~8k lignes de code** dans `src/`
+  - TypeScript (.ts) : 2k lignes
+  - TypeScript React (.tsx) : 6k lignes
+  - **60 fichiers** TS/TSX
 
 ---
 
