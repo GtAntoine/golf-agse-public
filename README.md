@@ -23,6 +23,7 @@
 - [Itération Produit après 6 mois d'usage](#-itération-produit-après-6-mois-dusage)
 - [Historique du design](#-historique-du-design)
 - [Architecture Technique](#-architecture-technique)
+- [Qualité & Tests](#-qualité--tests)
 - [Résultats & KPIs](#-résultats--kpis)
 
 ## 👋 Contexte : Du Besoin à la Solution
@@ -347,6 +348,30 @@ Après **6 mois d'utilisation continue**, deux besoins majeurs ont émergé lors
   - TypeScript (.ts) : 2k lignes
   - TypeScript React (.tsx) : 6k lignes
   - **60 fichiers** TS/TSX
+
+---
+
+## ✅ Qualité & Tests
+
+### Tests End-to-End avec Playwright
+
+Pour garantir la qualité et la fiabilité de l'application, **50 tests end-to-end** ont été implémentés avec **Playwright**, couvrant l'ensemble des parcours utilisateurs critiques :
+
+**Couverture de tests :**
+- 🔐 **Authentification** : Login, register, validation des champs, pages protégées
+- 📝 **Formulaire d'adhésion** : Remplissage, validation, calcul des prix, soumission
+- 🧭 **Navigation** : Routes, responsive design (mobile/tablette/desktop), liens actifs
+- 🌙 **Dark mode** : Basculement thème, persistance, contraste, glassmorphism
+
+**Approche QA :**
+- **Multi-navigateurs** : Tests sur Chromium, Firefox et WebKit (Safari)
+- **Responsive testing** : Vérification mobile, tablette et desktop
+- **CI/CD ready** : Configuration pour intégration continue avec retries et traces
+- **Best practices** : Sélecteurs accessibles (rôles ARIA), assertions robustes, tests isolés
+
+**Résultat :** Une application testée en profondeur avec une couverture complète des user flows, garantissant une expérience stable et sans régression pour les utilisateurs.
+
+📚 **[Voir la documentation complète des tests](e2e/README.md)**
 
 ---
 
